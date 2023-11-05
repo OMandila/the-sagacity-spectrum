@@ -1,8 +1,8 @@
-# The Consultant Chronicles
+# Snapshots from my Professional Life
 
 ## Overview
 
-"The Consultant Chronicles" is a portfolio website showcasing the high-impact consulting projects led by Oliver Mandila. This multi-page website is structured to provide a narrative of Oliver's problem-solving acumen and strategic project management through a detailed "Why, What, How" format for each featured project.
+"The Sagacity Spectrum" is a portfolio website showcasing the transformational projects that were led or delivered by Oliver Mandila. This multi-page website is structured to provide a narrative of Oliver's problem-solving acumen and strategic project management through a detailed "Why, What, How" format for each featured project.
 
 ## Website Structure
 
@@ -23,10 +23,10 @@
 ## Local Setup
 
 1. Clone the repository:
-git clone https://github.com/OMandila/cautious-carnival
+git clone https://github.com/OMandila/sagacity-spectrum
 
 2. Navigate to the project directory:
-cd cautious-carnival
+cd sagacity-spectrum
 
 3. Open `index.html` in a web browser.
 
