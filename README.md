@@ -23,7 +23,7 @@
 ## Local Setup
 
 1. Clone the repository:
-git clone https://github.com/olivermandila/consultant-chronicles.git
+git clone https://github.com/OMandila/cautious-carnival
 
 2. Navigate to the project directory:
 cd consultant-chronicles
