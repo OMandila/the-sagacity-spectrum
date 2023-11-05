@@ -26,7 +26,7 @@
 git clone https://github.com/OMandila/cautious-carnival
 
 2. Navigate to the project directory:
-cd consultant-chronicles
+cd cautious-carnival
 
 3. Open `index.html` in a web browser.
 
