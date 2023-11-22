@@ -92,28 +92,19 @@ nav {
 /* Footer */
 footer {
     position: fixed;
+    display: flex;
     background-color: #ffffff;
     padding: 1em;
-    left: 0;
     width: 100%;
     color: #3a3a3a;
     bottom: 0;
     right: 0;
+    flex-basis: auto;
+    justify-content: space-between;
 }
 
-footer>a {
+footer a {
     font: 100%;
+    padding: 20px;
     letter-spacing: 2px;
-}
-
-#copyright {
-    text-align: left;
-}
-
-#social-networks {
-    text-align: center;
-}
-
-#policies {
-    text-align: right;
 }
