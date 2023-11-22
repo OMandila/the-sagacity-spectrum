@@ -1,79 +1,33 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nunito:wght@200;300;400;500;600;700&display=swap');
 
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
 }
 
-header,
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1rem 0;
+h1,
+h2,
+h3 {
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
 }
 
-header h1 {
-    margin: 0;
+.hidden-heading {
+    display: none;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: white;
-}
-
-main {
-    padding: 20px;
-}
-
-section {
-    min-height: 500px;
-    margin: 20px 0;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-#introduction {
-    background-color: #f0e68c;
-    /* khaki for the main intro */
-}
-
-footer {
-    margin-top: 20px;
-}
-
-/* Add a class for each project with a unique background color */
-
-.project1 {
-    background-color: orange;
-}
-
-.project2 {
-    background-color: lightgreen;
-}
-
-.project3 {
-    background-color: darkkhaki;
-}
-
-/* a version of dark yellow */
-.project4 {
-    background-color: lemonchiffon;
-}
-
-.project5 {
-    background-color: palegoldenrod;
-}
+/* Header formatting */
