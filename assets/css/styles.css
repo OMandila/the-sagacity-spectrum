@@ -51,7 +51,7 @@ header a {
 #menu {
     list-style-type: none;
     font: 100%;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
 }
 
 #menu>li {
@@ -96,17 +96,23 @@ footer {
     background-color: #ffffff;
     padding: 1em;
     width: 100%;
-    color: #3a3a3a;
     bottom: 0;
     right: 0;
+    letter-spacing: 2px;
     flex-basis: auto;
     justify-content: space-between;
+    list-style-type: none;
 }
 
-footer a {
-    font: 100%;
-    padding: 20px;
-    letter-spacing: 2px;
+footer i {
+    font-size: 150%;
+    padding: 10px;
+    color: #3a3a3a;
+}
+
+#social-networks {
+    flex-shrink: 0;
+    align-self: center;
 }
 
 /* media query: tablets and larger (768px and greater) */
