@@ -141,15 +141,22 @@ main {
 }
 
 #identity {
-    display: flex;
     padding: 15px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+}
+
+#about-me {
+    padding: 15px;
+    align-items: top;
+    justify-content: center;
 }
 
 
 
-
+#action {
+    height: auto;
+}
 
 /* Footer */
 footer {
@@ -226,7 +233,23 @@ footer a {
         right: 50px;
     }
 
+    #identity {
+        display: flex;
+        padding: 15px;
+        align-items: center;
+        justify-content: space-around;
+    }
 
+    #about-me {
+        display: flex;
+        padding: 15px;
+        align-items: top;
+        justify-content: space-around;
+    }
+
+    #about-me div {
+        flex-basis: 300px;
+    }
 
     /* media query: laptops and larger (992px and greater) */
     @media screen and (min-width: 992px) {
