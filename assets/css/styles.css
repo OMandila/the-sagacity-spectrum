@@ -17,10 +17,6 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-strong {
-    font-size: 200%;
-}
-
 h1,
 h2,
 h3 {
@@ -28,6 +24,11 @@ h3 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #f7f7f7;
+}
+
+strong {
+    font-size: 200%;
+    color: #3a3a3a;
 }
 
 .hidden-heading {
@@ -112,7 +113,7 @@ main {
     position: relative;
 }
 
-#rationale {
+#intro {
     /* the last rgba value sets the opacity so it is transparent */
     background-color: rgb(184, 134, 11, .9);
     font-size: 130%;
@@ -124,10 +125,29 @@ main {
     padding-left: 10px;
 }
 
-#rationale>h2,
-#rationale>h3 {
+#intro>h2,
+#intro>h3 {
     color: #f7f7f7;
 }
+
+/* oliver section */
+#face {
+    height: 100vh;
+    width: 90vw;
+    background: url("../images/face") no-repeat center center/cover;
+    position: relative;
+    max-width: 300px;
+    max-height: 354px;
+}
+
+#identity {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
 
 
 
@@ -201,7 +221,7 @@ footer a {
     }
 
     /* Hero */
-    #rationale {
+    #intro {
         width: 300px;
         right: 50px;
     }
