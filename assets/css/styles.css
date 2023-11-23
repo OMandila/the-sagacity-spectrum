@@ -23,7 +23,7 @@ h3 {
     font-family: 'Nunito', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #252525;
+    color: #f7f7f7;
 }
 
 .hidden-heading {
@@ -32,12 +32,12 @@ h3 {
 
 /* Header formatting */
 header {
-    background-color: #ffffff;
+    background-color: #252525;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #252525;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -59,19 +59,20 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #f7f7f7;
 }
 
 /* navigation bar with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: #252525;
     padding: 0 1rem;
     left: 0;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #252525;
     display: none;
     top: 100%;
+    color: #f7f7f7;
 }
 
 /* navigation toggle */
@@ -85,7 +86,9 @@ nav {
 
 #nav-toggle-label {
     font-size: 2rem;
+    color: #f7f7f7;
 }
+
 
 
 
@@ -93,8 +96,8 @@ nav {
 footer {
     position: fixed;
     display: flex;
-    background-color: #ffffff;
-    padding: 1em;
+    background-color: #252525;
+    padding: 0 1rem;
     width: 100%;
     bottom: 0;
     right: 0;
@@ -102,12 +105,19 @@ footer {
     flex-basis: auto;
     justify-content: space-between;
     list-style-type: none;
+    color: #f7f7f7;
 }
 
 footer i {
     font-size: 150%;
     padding: 10px;
-    color: #3a3a3a;
+    color: #f7f7f7;
+}
+
+footer a {
+    font-size: 100%;
+    text-decoration: none;
+    color: #f7f7f7;
 }
 
 #social-networks {
@@ -135,7 +145,7 @@ footer i {
         padding-left: 1rem;
     }
 
-    .nav-toggle-label {
+    #nav-toggle-label {
         display: none;
     }
 
@@ -148,5 +158,9 @@ footer i {
     /* media query: laptops and larger (992px and greater) */
     @media screen and (min-width: 992px) {
         #menu a:hover {
-            border-bottom: 1px solid #3a3a3a;
+            border-bottom: 1px solid #f7f7f7;
+        }
+
+        footer a:hover {
+            border-bottom: 1px solid #f7f7f7;
         }
