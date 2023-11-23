@@ -98,7 +98,7 @@ main {
     /* Enlarge main element to push footer down */
     flex: 1 0 auto;
     /* Add margin at the top to prevent content from being covered by the header */
-    margin-top: 45px;
+    margin-top: 47px;
     /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
@@ -110,6 +110,23 @@ main {
     width: 100%;
     background: url("../images/hero") no-repeat center center/cover;
     position: relative;
+}
+
+#rationale {
+    /* the last rgba value sets the opacity so it is transparent */
+    background-color: rgb(184, 134, 11, .9);
+    font-size: 130%;
+    position: absolute;
+    bottom: 80px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+#rationale>h2,
+#rationale>h3 {
+    color: #f7f7f7;
 }
 
 
@@ -176,6 +193,20 @@ footer a {
         line-height: 75px;
         margin: 0 0.5rem;
     }
+
+    /* main content */
+    main {
+        /* push main content down to accomodate larger header */
+        margin-top: 77px;
+    }
+
+    /* Hero */
+    #rationale {
+        width: 300px;
+        right: 50px;
+    }
+
+
 
     /* media query: laptops and larger (992px and greater) */
     @media screen and (min-width: 992px) {
