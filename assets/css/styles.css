@@ -197,6 +197,11 @@ main {
     margin: 15px;
 }
 
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 15px;
+}
+
 #pwc-logo-image {
     height: 121px;
     width: 159px;
@@ -327,17 +332,23 @@ footer a {
     #fsc {
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-evenly;
+        flex-basis: 300px;
+    }
+
+    #fsc-text {
+        flex-basis: 500px;
     }
 
     #pwc {
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
 
     #pwc-text {
         order: -1;
+        flex-basis: 500px;
     }
 
     /* media query: laptops and larger (992px and greater) */
