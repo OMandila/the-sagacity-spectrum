@@ -177,6 +177,11 @@ main {
 }
 
 /* employment section */
+#employment h3 {
+    text-align: center;
+    margin: 20px;
+}
+
 #fsc-logo-image {
     height: 109px;
     width: 215px;
@@ -222,7 +227,22 @@ hr {
     margin: 15px;
 }
 
+/* fav organizations section */
+#organizations h3 {
+    text-align: center;
+    margin: 20px;
+}
 
+#logos img {
+    width: 100%;
+    line-height: 0;
+}
+
+#logos {
+    column-count: 2;
+}
+
+/* call to action section */
 #action {
     background-color: rgb(184, 134, 11, .8);
 }
@@ -233,14 +253,18 @@ hr {
     color: #f7f7f7;
 }
 
-button {
+.button {
     margin: 10px;
-    border-radius: 10px;
     padding: 5px;
+    border-radius: 10px;
+    background-color: #3a3a3a;
+}
+
+.button a {
+    color: #f7f7f7;
     font-size: 100%;
     font: inherit;
-    background-color: #3a3a3a;
-    color: #f7f7f7;
+    text-decoration: none;
 }
 
 /* Footer */
@@ -350,6 +374,11 @@ footer a {
         order: -1;
         flex-basis: 500px;
     }
+
+    /* fav organizations */
+        #logos {
+            column-count: 4;
+        }
 
     /* media query: laptops and larger (992px and greater) */
     @media screen and (min-width: 992px) {
