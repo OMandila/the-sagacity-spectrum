@@ -183,11 +183,10 @@ main {
 }
 
 #fsc-logo-image {
-    height: 109px;
-    width: 215px;
+    height: 70px;
+    width: 160px;
     margin: 15px;
     background: url("../images/fsc") no-repeat center center/cover;
-    position: relative;
     max-width: 300px;
     max-height: 240px;
 }
@@ -212,7 +211,6 @@ hr {
     width: 159px;
     margin: 15px;
     background: url("../images/pwc") no-repeat center center/cover;
-    position: relative;
     max-width: 300px;
     max-height: 240px;
 }
@@ -376,9 +374,9 @@ footer a {
     }
 
     /* fav organizations */
-        #logos {
-            column-count: 4;
-        }
+    #logos {
+        column-count: 4;
+    }
 
     /* media query: laptops and larger (992px and greater) */
     @media screen and (min-width: 992px) {
