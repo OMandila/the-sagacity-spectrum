@@ -138,36 +138,108 @@ main {
 }
 
 /* oliver section */
-#face {
+#face-image {
     height: 100vh;
     width: 90vw;
+    margin: 15px;
     background: url("../images/face") no-repeat center center/cover;
     position: relative;
     max-width: 300px;
     max-height: 354px;
 }
 
-#identity {
-    padding: 15px;
+#face {
+    display: flex;
     align-items: center;
     justify-content: center;
 }
 
+#tagline-text {
+    margin: 15px;
+}
+
+/* about section */
 #about-me {
-    padding: 15px;
-    align-items: top;
+    background-color: rgba(241, 109, 107, .8);
+}
+
+#skills,
+#values,
+#contact {
+    margin: 20px;
+    color: #f7f7f7;
+}
+
+#contact a {
+    font-size: 80%;
+    text-decoration: underline;
+    color: #3a3a3a;
+}
+
+/* employment section */
+#fsc-logo-image {
+    height: 109px;
+    width: 215px;
+    margin: 15px;
+    background: url("../images/fsc") no-repeat center center/cover;
+    position: relative;
+    max-width: 300px;
+    max-height: 240px;
+}
+
+#fsc-logo {
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 
+#fsc-text {
+    margin: 15px;
+}
+
+#pwc-logo-image {
+    height: 121px;
+    width: 159px;
+    margin: 15px;
+    background: url("../images/pwc") no-repeat center center/cover;
+    position: relative;
+    max-width: 300px;
+    max-height: 240px;
+}
+
+#pwc-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pwc-text {
+    margin: 15px;
+}
 
 
 #action {
-    height: auto;
+    background-color: rgb(184, 134, 11, .8);
+}
+
+#action-text {
+    padding-top: 20px;
+    text-align: center;
+    color: #f7f7f7;
+}
+
+button {
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 100%;
+    font: inherit;
+    background-color: #3a3a3a;
+    color: #f7f7f7;
 }
 
 /* Footer */
 footer {
-    position: fixed;
     display: flex;
     background-color: #252525;
     padding: 0 1rem;
@@ -242,20 +314,30 @@ footer a {
 
     #identity {
         display: flex;
-        padding: 15px;
         align-items: center;
         justify-content: space-around;
     }
 
     #about-me {
         display: flex;
-        padding: 15px;
         align-items: top;
         justify-content: space-around;
     }
 
-    #about-me div {
-        flex-basis: 300px;
+    #fsc {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #pwc {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #pwc-text {
+        order: -1;
     }
 
     /* media query: laptops and larger (992px and greater) */
