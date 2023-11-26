@@ -190,6 +190,12 @@ main {
     margin: 20px;
 }
 
+#employment a {
+    text-align: left;
+    text-decoration: underline;
+    color: inherit;
+}
+
 #fsc-logo-image {
     height: 70px;
     width: 160px;
