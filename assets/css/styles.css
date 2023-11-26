@@ -159,7 +159,7 @@ main {
 }
 
 /* about section */
-#about-me {
+#about {
     background-color: rgba(241, 109, 107, .8);
 }
 
@@ -177,6 +177,10 @@ main {
 }
 
 /* employment section */
+#employment {
+    background-color: #FFD580;
+}
+
 #employment h3 {
     text-align: center;
     margin: 20px;
@@ -242,13 +246,13 @@ hr {
 
 /* call to action section */
 #action {
-    background-color: rgb(184, 134, 11, .8);
+    background-color: #ffdb58;
 }
 
 #action-text {
     padding-top: 20px;
     text-align: center;
-    color: #f7f7f7;
+    color: inherit;
 }
 
 .button {
