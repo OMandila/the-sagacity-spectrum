@@ -138,6 +138,10 @@ main {
 }
 
 /* oliver section */
+#oliver {
+    background-color: #FFD580;
+}
+
 #face-image {
     height: 100vh;
     width: 90vw;
@@ -173,7 +177,7 @@ main {
 #contact a {
     font-size: 80%;
     text-decoration: underline;
-    color: #3a3a3a;
+    color: inherit;
 }
 
 /* employment section */
@@ -250,9 +254,14 @@ hr {
 }
 
 #action-text {
-    padding-top: 20px;
+    padding: 10px;
     text-align: center;
     color: inherit;
+}
+
+#action-text h4,
+#action-text p {
+    padding: 10px;
 }
 
 .button {
@@ -511,4 +520,13 @@ footer a {
 
         footer a:hover {
             border-bottom: 1px solid #f7f7f7;
+        }
+
+        .button:hover {
+            background-color: #f7f7f7;
+        }
+
+        .button:hover a {
+            text-decoration: none;
+            color: #3a3a3a;
         }
