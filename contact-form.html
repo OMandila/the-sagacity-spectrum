@@ -59,7 +59,59 @@
 
     <!-- Main page content -->
     <main>
-      <section id=""></section>
+      <section id="contact">
+        <form
+          action="https://formdump.codeinstitute.net"
+          id="contact-form"
+          method="post"
+        >
+          <h2>
+            <i class="fa-solid fa-diagram-project"></i>Tell me about yourself:
+          </h2>
+          <label for="first_name">First Name</label>
+          <input
+            type="text"
+            name="first_name"
+            id="first_name"
+            class="text-input"
+            placeholder="John"
+            required
+          />
+          <br />
+          <label for="last_name">Last Name</label>
+          <input
+            type="text"
+            name="last_name"
+            id="last_name"
+            class="text-input"
+            placeholder="Smith"
+            required
+          />
+          <br />
+          <label for="email_address">Email Address</label>
+          <input
+            type="email"
+            name="email_address"
+            id="email_address"
+            class="text-input"
+            placeholder="example@email.com"
+            required
+          />
+          <br />
+          <label for="project">Project idea</label>
+          <textarea
+            name="project"
+            id="project"
+            class="text-area"
+            rows="4"
+            cols="50"
+            placeholder="Your project idea in less than 100 words:"
+            maxlength="100"
+            required
+          ></textarea>
+          <button type="submit" class="button">Submit</button>
+        </form>
+      </section>
     </main>
 
     <footer>
