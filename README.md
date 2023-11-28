@@ -7,7 +7,8 @@
 ## Website Structure
 
 - `index.html`: The main entry point of the portfolio.
-- `project1.html` to `project5.html`: Dedicated pages for each consulting project.
+- `project1.html` : 
+- `project5.html`: Dedicated pages for each consulting project.
 
 ## Design
 
@@ -19,6 +20,17 @@
 
 - HTML5
 - CSS3
+
+## Testing
+1. Responsiveness
+2. Broken links
+3. Layout for the UI/UX
+4. 
+
+## Bugs
+1. The responsiveness issue in small screens below 350px width
+![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/1182564c-3afc-4685-a0c3-e4f349995c80)
+
 
 ## Local Setup
 
