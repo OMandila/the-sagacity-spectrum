@@ -474,7 +474,6 @@ footer a {
 }
 
 #social-networks {
-    flex-shrink: 0;
     align-self: center;
 }
 
