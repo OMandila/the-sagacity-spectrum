@@ -389,7 +389,7 @@ hr {
     flex-shrink: 0;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .steps::after {
         left: 32px;
     }
@@ -507,7 +507,7 @@ footer a {
     }
 
     #logo {
-        font-size: 280%;
+        font-size: 200%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
