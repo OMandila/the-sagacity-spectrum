@@ -475,6 +475,11 @@ footer a {
 
 #social-networks {
     align-self: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    flex-grow: 1;
 }
 
 /* media query: tablets and larger (768px and greater) */
