@@ -8,6 +8,12 @@
     box-sizing: border-box;
 }
 
+/* Variables for the projects page */
+:root {
+    --primary: #b8860b;
+    --primary-gradient: linear-gradient(45deg, #252525 0%, #f7f7f7 100%);
+}
+
 body {
     min-height: 100vh;
     display: flex;
@@ -288,11 +294,6 @@ hr {
 }
 
 /* projects page */
-:root {
-    --primary: #b8860b;
-    --primary-gradient: linear-gradient(45deg, #252525 0%, #f7f7f7 100%);
-}
-
 .section-header {
     text-align: center;
 }
@@ -582,6 +583,7 @@ footer a {
     .text-area:hover {
         border-color: #f16c6b;
     }
+}
 
     /* media query: laptops and larger (992px and greater) */
     @media screen and (min-width: 992px) {
@@ -602,3 +604,4 @@ footer a {
             text-decoration: none;
             color: #3a3a3a;
         }
+    }
