@@ -40,7 +40,7 @@ h4 {
 }
 
 strong {
-    font-size: 200%;
+    font-size: 140%;
     color: #3a3a3a;
 }
 
@@ -451,11 +451,11 @@ hr {
 footer {
     display: flex;
     background-color: #252525;
-    padding: 0 1rem;
+    padding: 0;
     width: 100%;
     bottom: 0;
     right: 0;
-    letter-spacing: 2px;
+    letter-spacing: 0;
     flex-basis: auto;
     justify-content: space-between;
     list-style-type: none;
