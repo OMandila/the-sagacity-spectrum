@@ -302,6 +302,15 @@ hr {
     font-size: 28px;
     font-weight: 700;
     margin-bottom: 16px;
+    color: #3a3a3a;
+}
+
+.section-header h3 {
+    color: #3a3a3a;
+}
+
+.section-header p {
+    color: #3a3a3a;
 }
 
 .section-header hr {
@@ -422,6 +431,7 @@ hr {
 
 #contact-form>h2 {
     color: #fafafa;
+    font-size: 120%;
     margin-bottom: 20px;
 }
 

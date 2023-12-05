@@ -66,25 +66,15 @@
           method="post"
         >
           <h2>
-            <i class="fa-solid fa-diagram-project"></i>Tell me about yourself:
+            <i class="fa-solid fa-diagram-project"></i>Tell me about your organization:
           </h2>
-          <label for="first_name">First Name</label>
+          <label for="name">Your Name</label>
           <input
             type="text"
-            name="first_name"
-            id="first_name"
+            name="name"
+            id="name"
             class="text-input"
-            placeholder="first_name"
-            required
-          />
-          <br />
-          <label for="last_name">Last Name</label>
-          <input
-            type="text"
-            name="last_name"
-            id="last_name"
-            class="text-input"
-            placeholder="last_name"
+            placeholder="FirstName LastName"
             required
           />
           <br />
@@ -94,20 +84,38 @@
             name="email_address"
             id="email_address"
             class="text-input"
-            placeholder="email_address"
+            placeholder="email address"
             required
           />
           <br />
-          <label for="project">Project idea</label>
+          <label for="company">Your Company</label>
+          <input
+            type="text"
+            name="company"
+            id="company"
+            class="text-input"
+            placeholder="Company Name"
+            required
+          />
+          <br />
+          <label for="role">Which role are you looking to fill?</label>
+          <input
+            type="text"
+            name="role"
+            id="role"
+            class="text-input"
+            placeholder="Role"
+          />
+          <br />
+          <label for="project">More details</label>
           <textarea
             name="project"
             id="project"
             class="text-area"
             rows="4"
             cols="50"
-            placeholder="Your project idea in less than 100 words:"
+            placeholder="Anything else in less than 100 words"
             maxlength="100"
-            required
           ></textarea>
           <button type="submit" class="button">Submit</button>
         </form>
