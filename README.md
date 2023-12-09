@@ -8,13 +8,13 @@
 - [Introduction](#introduction)
 - [Project Overview](#project-overview)
   - [User stories](#user-stories)
-- [Website Structure](#website-structure)
 - [Design](#design)
   - [Responsive Design](#responsive-design)
   - [Color Scheme](#color-scheme)
   - [Font choice](#font-choice)
   - [Icons](#icons)
   - [Wireframes](#wireframes)
+- [Website Structure and Features](#website-structure-and-features)
 - [Technologies Used](#technologies-used)
 - [Testing and Validation](#testing-and-validation)
 - [Bugs](#bugs)
@@ -24,7 +24,9 @@
 - [Local Setup](#setup-and-installation)
 - [Contributions](#contributions)
 - [License](#license)
-- [Contact](#contact)
+- [Acknowledgement](#acknowledgement)
+  - [Code inspiration](#code-inspiration)
+  - [Media](#media)
 
 ## Project Overview
 Having a portfolio website offers numerous compelling advantages over documenting a CV and a [LinkedIn](https://www.linkedin.com/in/oliver-mandila/) profile, especially for someone with diverse expertise and professional experiences. For me, these advantages include the following seven:
