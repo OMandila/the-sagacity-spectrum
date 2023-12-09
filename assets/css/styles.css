@@ -559,7 +559,7 @@ footer a {
 
     #about-me {
         display: flex;
-        align-items: top;
+        align-items: baseline;
         justify-content: space-around;
     }
 
