@@ -1,8 +1,7 @@
 # The Sagacity Spectrum: Snapshots from my Professional Life
 ## Introduction
-**The Sagacity Spectrum** is a personal website showcasing the diverse and strategic transformational projects that were led or delivered by Oliver Mandila. It serves as a digital testament to his expertise in program management, data analytics, product management, and technology strategy, highlighting a career marked by innovative solutions and forward-thinking leadership in complex business environments. This portfolio website is structured to provide a narrative of Oliver's professional personality, problem-solving acumen, and leadership. It was designed and developed by Oliver Mandila as part of his sustained interest in software development and his involvement in the Code Institute community of coders.
-![amiresponsive](https://github.com/OMandila/sagacity-spectrum/assets/71443713/0babbf46-0610-4dc1-97ce-31d43fb12d3a)
-
+**The Sagacity Spectrum** is a personal website showcasing the diverse and strategic transformational projects that were led or delivered by Oliver Mandila. It serves as a digital testament to his expertise in program management, data analytics, product management, and technology strategy, highlighting a career marked by innovative solutions and forward-thinking leadership in complex business environments. This portfolio website is structured to provide a narrative of Oliver's professional personality, problem-solving acumen, and leadership. It was designed and developed by Oliver Mandila as part of sustained interest in software development and involvement in the Code Institute community of coders.
+![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/8b2db4cd-f456-4ae2-a810-2e6077d8cd33)
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -100,12 +99,16 @@ The following wireframes for the Sagacity Spectrum were created in Invision:
 ![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/e2052486-8255-4cde-b37e-e7757d7ffb61)
 
 - The OLIVER MANDILA logo always links back to the home page.
+
 ![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/2c359371-e336-4f52-949b-93b604da5ebb)
 
 - The Navigation bar is always on the upper right corner as a hamburger menu on mobile screens and as links on screens above 768px:
-![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/0ecbda61-906f-41a3-a714-65a9b7e0d32c) ![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/6ebc4cf2-24c4-4a70-ad36-f6553b0ee8e5)
+
+![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/0ecbda61-906f-41a3-a714-65a9b7e0d32c)  &  
+![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/6ebc4cf2-24c4-4a70-ad36-f6553b0ee8e5)
 
 - The footer displays on all screen sizes whenever user scrolls to the bottom of the page. It displays the copyright information, social media links and a link to the policies page:
+
 ![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/692aa46d-5649-4501-aa82-5aa8b8916a93)
 
 ## Technologies Used
@@ -146,22 +149,28 @@ Below is the lighthouse report for the performance of the Let's Connect page on 
 
 ### W3C Markup validation
 No errors or warnings for HTML code review on the Home/Index page:
+
 ![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/711a0b52-5ea4-420f-9ffd-71d988d74b6a)
 
 The following error was detected by the W3C HTML validator:
+
 ![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/4389fd59-f6c0-42db-ab57-8288b23b1732)
 
 The error was resolved by changing the e element to em:
+
 ![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/f2603b52-b7a5-466b-809e-4ffa75a00d11)
 
 No errors or warnings for HTML code review on the Let's Connect page:
+
 ![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/7ffee70d-360a-406c-8e5d-a5902b4c1d64)
 
 ### Jigsaw CSS validation
 The following error was detected by the jigsaw W3C validator:
+
 ![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/f3fd219a-dfd6-4af3-8272-e16d4ee86a5e)
 
 The error was resolved by changing the align-items value from top to baseline in line 562 of the styles.css document:
+
 ![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/e89f713d-8533-44f3-9093-91317fddf50c)
 
 Please follow this link in order to go to the validation result or to re-validate the page in future:
@@ -223,7 +232,7 @@ The images used as logos for the Favourite Organizations section of the Home pag
 - By U.S. Government - Extracted from Image:USAID-Identity.svg., Public Domain, https://commons.wikimedia.org/w/index.php?curid=2771978
 - By World Bank - https://www.worldbank.org/content/dam/wbr/logo/logo-wb-header-en.svg, Public Domain, https://commons.wikimedia.org/w/index.php?curid=49079900
 - By UNICEF - https://www.unicef.org/ethiopia/BrandToolKit_EN_September2012.pdf, Public Domain, https://commons.wikimedia.org/w/index.php?curid=70179166
-- By Unknown author - en:File:Pwc logo.svg, Public Domain, https://commons.wikimedia.org/w/index.php?curid=34763817
+- By Unknown author - en: File:Pwc logo.svg, Public Domain, https://commons.wikimedia.org/w/index.php?curid=34763817
 - By Udacity - https://www.udacity.com, Public Domain, https://commons.wikimedia.org/w/index.php?curid=70810450
 - By Ashiriz - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=24590921
 - By The logo may be obtained from Forest Stewardship Council., Fair use, https://en.wikipedia.org/w/index.php?curid=34259396
