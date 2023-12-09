@@ -1,8 +1,8 @@
 # The Sagacity Spectrum: Snapshots from my Professional Life
 ## Introduction
 The "Sagacity Spectrum" is a personal website showcasing the diverse and strategic transformational projects that were led or delivered by Oliver Mandila. It serves as a digital testament to his expertise in program management, data analytics, product management, and technology strategy, highlighting a career marked by innovative solutions and forward-thinking leadership in complex business environments. This portfolio website is structured to provide a narrative of Oliver's professional personality, problem-solving acumen, and leadership. It was designed and developed by Oliver Mandila as part of his sustained interest in software development and his involvement in the Code Institute community of coders.
+![amiresponsive](https://github.com/OMandila/sagacity-spectrum/assets/71443713/0babbf46-0610-4dc1-97ce-31d43fb12d3a)
 
-***#amiresponsive***
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -35,7 +35,6 @@ Having a portfolio website offers numerous compelling advantages over documentin
 4. ***Thought Leadership***: As an enthusiast in data analytics, data product management, and leadership, having a platform to share insights, blog posts, or case studies can become a resource for others in the field.
 5. ***Facilitates Networking and Connection***: A personal website can be a networking hub, where other professionals, mentors, mentees, and potential collaborators come to learn about my work and connect with me.
 6. ***Efficient Communication Tool***: When networking or applying for new roles, sharing a link to my portfolio is a highly efficient way to communicate my professional stature and capabilities, much more so than attaching documents or describing my work in brief conversations.
-
 7. ***Reflects Personal Growth***: The "Sagacity Spectrum" serves as a personal record of my professional journey. It's not just a tool for others to assess my capabilities, but also a platform for me to reflect on my growth, achievements, and the evolution of my career goals and aspirations.
 
 ### User stories
@@ -63,6 +62,8 @@ As a potential collaborator in tech and data projects, I want to understand the 
 ### Responsive Design
 Ensures compatibility across various devices.
 ### Color Scheme
+![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/04f91d50-8cec-4be0-87e6-1d4ee9de4271)
+
   - Header and Footer background colors: #252525 (Dark grey)
   - Text color: #3a3a3a (Grey) & #f7f7f7 (White)
   - Call to action: #ffdb58 (Yellow)
@@ -87,9 +88,7 @@ Google Fonts 'Lato' and 'Nunito' have been used in the Sagacity Spectrum for the
   and converted to favicon format through https://favicon.io/
 ### Wireframes
 The following wireframes for the Sagacity Spectrum were created in Invision:
-
-***wireframes***
-
+![Portfolio website (HTML5 CSS3)](https://github.com/OMandila/sagacity-spectrum/assets/71443713/5cad1b19-1ee8-48f1-a37d-21816435f39f)
 
 ## Technologies Used
 - HTML5 and CSS3 for code development
@@ -107,13 +106,50 @@ The site was continually tested during development using Chrome Developer tools.
 
 ### Chrome developer tools
 
-### Light-house on Chrome
+### Lighthouse
+Below is the lighthouse report for the performance of the Home/Index page on a mobile device:
+![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/8ed2526d-4edf-49e7-8217-6c168bc6859e)
+
+Below is the lighthouse report for the performance of the Home/Index page on a desktop device:
+![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/54da2e3a-8ea0-4850-afc5-f3ae859cc0de)
+
+Below is the lighthouse report for the performance of The Projects page on a mobile device:
+![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/cf6667cf-bc02-48b2-9263-1a7c63ae8d98)
+
+Below is the lighthouse report for the performance of The Projects page on a desktop device:
+![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/aa3f4f3e-83cd-4f33-abe2-4a552d4121f6)
+
+Below is the lighthouse report for the performance of the Let's Connect page on a mobile device:
+![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/a2ced423-5ef2-4d63-9acc-62cda254eb7a)
+
+Below is the lighthouse report for the performance of the Let's Connect page on a desktop device:
+![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/4853afe5-2048-4a3b-9f1f-032bc6db70a7)
+
 
 ### W3C Markup validation
-For HTML code review
+No errors or warnings for HTML code review on the Home/Index page:
+![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/711a0b52-5ea4-420f-9ffd-71d988d74b6a)
+
+The following error was detected by the W3C HTML validator:
+![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/4389fd59-f6c0-42db-ab57-8288b23b1732)
+
+The error was resolved by changing the e element to em:
+![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/f2603b52-b7a5-466b-809e-4ffa75a00d11)
+
+No errors or warnings for HTML code review on the Let's Connect page:
+![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/7ffee70d-360a-406c-8e5d-a5902b4c1d64)
 
 ### Jigsaw CSS validation
-For CSS code review
+The following error was detected by the jigsaw W3C validator:
+![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/f3fd219a-dfd6-4af3-8272-e16d4ee86a5e)
+
+The error was resolved by changing the align-items value from top to baseline in line 562 of the styles.css document:
+![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/e89f713d-8533-44f3-9093-91317fddf50c)
+
+Please follow this link in order to go to the validation result or to re-validate the page in future:
+http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fomandila.github.io%2Fsagacity-spectrum%2F&usermedium=all&vextwarning=&warning=1
+or
+http://jigsaw.w3.org/css-validator/check/referer (for HTML/XML document only)
 
 ## Bugs
 ### Resolved bugs
@@ -121,8 +157,7 @@ For CSS code review
     - As shown in the image below, the home/landing page left a white gap on the right-side when the user tried to view on a 280px width screen.
 ![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/1182564c-3afc-4685-a0c3-e4f349995c80)
     - This was resolved by reducing the letter-spacing in the footer from 2px to 0, and reducing the font-size of 'Favourite Organizations' from 200% to 140%
-
-***resolved bug screen***
+![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/58b71ce8-1876-4341-b580-c718708e2406)
 
 ### Unresolved bugs
 None identified yet.
