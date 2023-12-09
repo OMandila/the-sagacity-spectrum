@@ -52,11 +52,8 @@ As an industry expert, I want to see how Oliver has integrated emerging technolo
 As an event organizer for tech conferences, I want to explore Oliver's public speaking experiences and areas of expertise, so that I can consider him for speaking engagements at industry events.
 - **Collaborator/User Story:**
 As a potential collaborator in tech and data projects, I want to understand the scope and impact of Oliver's previous collaborations, so that I can identify opportunities for future joint ventures or partnerships.
-
-## Website Structure
-- [Home](https://omandila.github.io/sagacity-spectrum/index.html) : The landing page of the portfolio website showing details about the Oliver Mandila's professional person.
-- [The Projects](https://omandila.github.io/sagacity-spectrum/projects.html) : This page displays the projects in the format 'Situation', 'Action(s)', 'Result(s)' for each featured project.
-- [Let's Connect!](https://omandila.github.io/sagacity-spectrum/contact-form.html) : This page contains a form for users to share details of their organization any role(s) they may be looking to engage Oliver Mandila on.
+- **Site User/User Story:**
+As a visitor of the site, I want to easily connect with Oliver, so that I can get in touch for a prospective partnership.
 
 ## Design
 ### Responsive Design
@@ -68,11 +65,11 @@ Ensures compatibility across various devices.
   - Text color: #3a3a3a (Grey) & #f7f7f7 (White)
   - Call to action: #ffdb58 (Yellow)
   - Background colors:
-    - Introduction banner on the hero image:- {rgb(184, 134, 11, .9)} (Gold);
-    - Alternating sections in the Landing page:- #FFD580 (Orange) & {rgba(241, 109, 107, .8)} (Light Red);
+    - Introduction banner on the hero image:- #E6A80E (Gold);
+    - Alternating sections in the Landing page:- #FFD580 (Orange) & #CC5C5A (Light Red);
     - The timeline bubbles in The Projects page and Let's Connect page: #b8860b (Gold)
     - The Project page: linear-gradient(45deg, #252525 (Grey) 0%, #f7f7f7 (White) 100%)
-    - contact-form: rgba(60, 60, 60, .6)
+    - contact-form: rgba(60, 60, 60, .6) (Grey)
 ### Font Choice
 Google Fonts 'Lato' and 'Nunito' have been used in the Sagacity Spectrum for their modern and professional appearance:
   - 'Lato':- in the navigation and footer, and 
@@ -90,21 +87,40 @@ Google Fonts 'Lato' and 'Nunito' have been used in the Sagacity Spectrum for the
 The following wireframes for the Sagacity Spectrum were created in Invision:
 ![Portfolio website (HTML5 CSS3)](https://github.com/OMandila/sagacity-spectrum/assets/71443713/5cad1b19-1ee8-48f1-a37d-21816435f39f)
 
+## Website Structure and features
+- [Home](https://omandila.github.io/sagacity-spectrum/index.html) : The landing page of the portfolio website showing details about the Oliver Mandila's professional person.
+![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/68215677-ae4b-4c93-8081-56479211dbc8)
+
+- [The Projects](https://omandila.github.io/sagacity-spectrum/projects.html) : This page displays the projects in the format 'Situation', 'Action(s)', 'Result(s)' for each featured project.
+![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/664df380-f5fb-431f-9d1a-1cceecb0d4aa)
+
+- [Let's Connect!](https://omandila.github.io/sagacity-spectrum/contact-form.html) : This page contains a form for users to share details of their organization any role(s) they may be looking to engage Oliver Mandila on.
+![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/e2052486-8255-4cde-b37e-e7757d7ffb61)
+
+- The OLIVER MANDILA logo always links back to the home page.
+![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/2c359371-e336-4f52-949b-93b604da5ebb)
+
+- The Navigation bar is always on the upper right corner as a hamburger menu on mobile screens and as links on screens above 768px:
+![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/0ecbda61-906f-41a3-a714-65a9b7e0d32c) ![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/6ebc4cf2-24c4-4a70-ad36-f6553b0ee8e5)
+
+- The footer displays on all screen sizes whenever user scrolls to the bottom of the page. It displays the copyright information, social media links and a link to the policies page:
+![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/692aa46d-5649-4501-aa82-5aa8b8916a93)
+
 ## Technologies Used
 - HTML5 and CSS3 for code development
 - GitHub for code management
 - Codeanywhere and VS Code for code editing
-- ChatGPT-4 for content, especially text editing and image creation
+- OpenAI ChatGPT-4 for content, especially text editing and hero image creation
 
 ## Testing and Validation
 The site was continually tested during development using Chrome Developer tools. No tests have been done yet on Microsoft Edge, Mozilla Firefox and Apple Safari to ascertain any browser compatibility and performance on these.
+
 ### Responsiveness
+Responsiveness for all pages has been tested and validated up to a minimum of 280px width screen size.
 
 ### Features and Links
-
-### Layout for the UI/UX
-
-### Chrome developer tools
+- All links in the website have been confirmed and there is no broken links.
+- The data entry form fields have also been confirmed that they will perform data validation as expected.
 
 ### Lighthouse
 Below is the lighthouse report for the performance of the Home/Index page on a mobile device:
@@ -194,5 +210,21 @@ This project is released under the MIT License.
 - Code Institute for the educational support.
 - Spencer Barribal for mentorship and guidance.
 - Contributors for their ongoing improvements.
+### Code inspiration
+- Navigation bar: The code used was from the Code Institute Love Running walkthrough project
+![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/266bf980-268f-4aeb-bc7c-7337602e5da9)
+- https://alvarotrigo.com/blog/html-css-timelines/ for the code used in The Projects page (Stepped Vertical Timeline (https://codepen.io/alvarotrigo/pen/bGobepJ) from the 15+ HTML & CSS Timelines [Examples for Inspiration])
+![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/805ae37d-aa1e-4523-a2cd-132162650916)
+
+### Media
+The images used as logos for the Favourite Organizations section of the Home page were contributed by the following:
+- By U.S. Government - Extracted from Image:USAID-Identity.svg., Public Domain, https://commons.wikimedia.org/w/index.php?curid=2771978
+- By World Bank - https://www.worldbank.org/content/dam/wbr/logo/logo-wb-header-en.svg, Public Domain, https://commons.wikimedia.org/w/index.php?curid=49079900
+- By UNICEF - https://www.unicef.org/ethiopia/BrandToolKit_EN_September2012.pdf, Public Domain, https://commons.wikimedia.org/w/index.php?curid=70179166
+- By Unknown author - en:File:Pwc logo.svg, Public Domain, https://commons.wikimedia.org/w/index.php?curid=34763817
+- By Udacity - https://www.udacity.com, Public Domain, https://commons.wikimedia.org/w/index.php?curid=70810450
+- By Ashiriz - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=24590921
+- By The logo may be obtained from Forest Stewardship Council., Fair use, https://en.wikipedia.org/w/index.php?curid=34259396
+- By Abdullahi Abdi Omar (Jawaan) - [1], Public Domain, https://commons.wikimedia.org/w/index.php?curid=20350750
 
 © 2023 Oliver Mandila. All rights reserved.
