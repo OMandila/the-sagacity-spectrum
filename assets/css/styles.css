@@ -415,6 +415,12 @@ hr {
     flex-shrink: 0;
 }
 
+@media (max-width: 300px) {
+    .steps .steps-container .date {
+        display: none; /* hide the element in very small screens for better page responsiveness */
+    }
+}
+
 @media (max-width: 768px) {
     .steps::after {
         left: 32px;
