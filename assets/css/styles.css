@@ -157,7 +157,7 @@ main {
     max-width: 300px;
     max-height: 354px;
 }
-
+/* The div containing the face image */
 #face {
     display: flex;
     align-items: center;
@@ -211,6 +211,7 @@ main {
     max-height: 240px;
 }
 
+/* The div containing the fsc logo */
 #fsc-logo {
     display: flex;
     align-items: center;
@@ -235,6 +236,7 @@ hr {
     max-height: 240px;
 }
 
+/* The div containing the pwc logo */
 #pwc-logo {
     display: flex;
     align-items: center;
@@ -417,12 +419,12 @@ hr {
 
 @media (max-width: 300px) {
     .steps .steps-container .date {
-        display: none; /* hide the element in very small screens for better page responsiveness */
+        display: none; /* hide the date bubble in very small screens for better page responsiveness */
     }
 }
 
 @media (max-width: 768px) {
-    .steps::after {
+    .steps::after { /* pseudo-elements creating the verticle line */
         left: 32px;
     }
 
@@ -551,12 +553,13 @@ footer a {
         margin-top: 77px;
     }
 
-    /* Hero */
+    /* Intro text on hero section */
     #intro {
         width: 300px;
         right: 50px;
     }
 
+    /* Introduction section with face and tagline  */
     #identity {
         display: flex;
         align-items: center;
