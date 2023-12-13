@@ -186,6 +186,13 @@ http://jigsaw.w3.org/css-validator/check/referer (for HTML/XML document only)
     - This was resolved by reducing the letter-spacing in the footer from 2px to 0, and reducing the font-size of 'Favourite Organizations' from 200% to 140%
 ![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/58b71ce8-1876-4341-b580-c718708e2406)
 
+2. The responsiveness issue in small screens below 300px width:
+    - As shown in the image below, the projects page was hiding part of the golden date bubble on the left-side when the user tried to view on a 280px width screen.
+![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/becdb32a-8bd6-4177-a30c-e0ff695333e9)
+
+    - This led to design compromise of removing the date bubble from display using a media query targeting screens with below 300px width
+![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/25b38509-5920-41f4-8c88-fe23c6efa558)
+
 ### Unresolved bugs
 None identified yet.
 
