@@ -104,8 +104,11 @@ The following wireframes for the Sagacity Spectrum were created in Invision:
 
 - The Navigation bar is always on the upper right corner as a hamburger menu on mobile screens and as links on screens above 768px:
 
-![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/0ecbda61-906f-41a3-a714-65a9b7e0d32c)  &  
-![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/6ebc4cf2-24c4-4a70-ad36-f6553b0ee8e5)
+![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/ca54387d-ac54-4dbc-a320-b17f6a233846)
+
+&
+
+![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/2a692873-7daf-4c77-8bd6-7d6826de4d91)
 
 - The footer displays on all screen sizes whenever user scrolls to the bottom of the page. It displays the copyright information, social media links and a link to the policies page:
 
@@ -182,15 +185,19 @@ http://jigsaw.w3.org/css-validator/check/referer (for HTML/XML document only)
 ### Resolved bugs
 1. The responsiveness issue in small screens below 350px width: 
     - As shown in the image below, the home/landing page left a white gap on the right-side when the user tried to view on a 280px width screen.
+
 ![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/1182564c-3afc-4685-a0c3-e4f349995c80)
     - This was resolved by reducing the letter-spacing in the footer from 2px to 0, and reducing the font-size of 'Favourite Organizations' from 200% to 140%
+
 ![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/58b71ce8-1876-4341-b580-c718708e2406)
 
 2. The responsiveness issue in small screens below 300px width:
     - As shown in the image below, the projects page was hiding part of the golden date bubble on the left-side when the user tried to view on a 280px width screen.
+
 ![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/becdb32a-8bd6-4177-a30c-e0ff695333e9)
 
-    - This led to design compromise of removing the date bubble from display using a media query targeting screens with below 300px width
+    - This led to a design compromise of removing the date bubble from display using a media query targeting screens with below 300px width
+
 ![image](https://github.com/OMandila/sagacity-spectrum/assets/71443713/25b38509-5920-41f4-8c88-fe23c6efa558)
 
 ### Unresolved bugs
